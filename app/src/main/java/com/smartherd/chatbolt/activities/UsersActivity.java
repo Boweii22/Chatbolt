@@ -1,6 +1,5 @@
 package com.smartherd.chatbolt.activities;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatImageView;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -23,7 +22,7 @@ import com.smartherd.chatbolt.utilites.PreferenceManager;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UsersActivity extends AppCompatActivity implements UserListener {
+public class UsersActivity extends BaseActivity implements UserListener {
 
 //    private ActivityUsersBinding binding;
     private PreferenceManager preferenceManager;

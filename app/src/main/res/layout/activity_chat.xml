@@ -71,7 +71,6 @@
         android:layout_marginStart="@dimen/_8sdp"
         android:layout_marginEnd="@dimen/_8sdp"
         android:ellipsize="end"
-        android:gravity="center"
         android:maxLines="1"
         android:textColor="@color/white"
         android:textSize="@dimen/_14ssp"
@@ -80,6 +79,20 @@
         app:layout_constraintEnd_toStartOf="@id/imageInfo"
         app:layout_constraintStart_toEndOf="@id/imageBack"
         app:layout_constraintTop_toTopOf="@id/imageBack"/>
+
+    <TextView
+        android:id="@+id/textAvailability"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        app:layout_constraintTop_toBottomOf="@+id/textName"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:text="@string/online_availability"
+        android:padding="@dimen/_2sdp"
+        app:layout_constraintStart_toEndOf="@id/imageBack"/>
 
     <View
         android:id="@+id/viewSupporter"
