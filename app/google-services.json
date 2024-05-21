@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "401489591439",
+    "project_id": "chatbolt-7648d",
+    "storage_bucket": "chatbolt-7648d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401489591439:android:6e6f8b2fc2f33d2eaf44fa",
+        "android_client_info": {
+          "package_name": "com.smartherd.chatbolt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1j3VA2qWgxSzOS82BSyAXie_SuKClUI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
