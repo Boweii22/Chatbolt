@@ -19,6 +19,10 @@ ChatBolt is an Android application that allows users to engage in real-time chat
 - Android SDK
 - Firebase project setup with Firestore and Cloud Messaging enabled
 
+##Screenshots
+![557_1x_shots_so](https://github.com/user-attachments/assets/e8777b5f-65a4-4a93-97ab-2797420d4ab5)
+
+
 ## Getting Started
 
 Follow these instructions to set up and run the ChatBolt app on your local machine.
